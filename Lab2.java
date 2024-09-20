@@ -1,4 +1,4 @@
-public class Lab2 {
+public class Lab2{
     public static double spaghettiStrands(){
         double length_spaghetti_strand = 25;
         double Earth_circumference = 40075;
