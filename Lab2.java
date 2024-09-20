@@ -1,4 +1,4 @@
-public class Lab2{
+public class Lab2 {
     public static double spaghettiStrands(){
         double length_spaghetti_strand = 25;
         double Earth_circumference = 40075;
@@ -16,13 +16,13 @@ public class Lab2{
 
         return number_cups_of_water;
     }
-    
+
     public static void main(String[] args){
         System.out.println("Question #1 is: How many strands of spaghetti would it take to wrap around the Earth??");
-        System.out.println("Answer #1 is: " + spaghettiStrands());
+        System.out.println("Answer #1 is: " + spaghettiStrands() + " spaghetti strands");
 
         System.out.println("Question #2 is: How many cups of water would it take to fill the Mediterranean Sea?");
-        System.out.println("Answer #2 is: " + cupsOfWater());
+        System.out.println("Answer #2 is: " + cupsOfWater()+" cups of water");
 
     }
 }
